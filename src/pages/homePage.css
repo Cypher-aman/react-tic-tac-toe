@@ -1,0 +1,99 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  flex-direction: column;
+  gap: 40px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.imageDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.xMark {
+  height: 40px;
+  width: 40px;
+  color: var(--lightBlue);
+}
+
+.oMark {
+  height: 40px;
+  width: 40px;
+  color: var(--yellow);
+}
+
+.optionDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--darkBg);
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom: 10px solid rgb(16, 25, 31);
+}
+
+.pick {
+  color: var(--lightGrey);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.chooseMark {
+  background-color: var(--veryDarkBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.chooseMark div {
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.optionX,
+.optionY {
+  color: var(--lightGrey);
+}
+
+.selected {
+  background-color: var(--lightGrey);
+}
+
+.selected .optionX,
+.selected .optionY {
+  color: var(--veryDarkBg);
+}
+
+.remember {
+  color: rgb(92, 110, 121);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--veryDarkBg);
+  width: 100%;
+}
+
+.modal {
+  position: absolute;
+  width: 100%;
+  box-shadow: 10px 10px 1000px black;
+}

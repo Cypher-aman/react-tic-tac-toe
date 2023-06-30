@@ -1,0 +1,40 @@
+.winnerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 10px 40px 10px;
+  background-color: var(--darkBg);
+  gap: 20px;
+}
+
+.playerNum {
+  color: var(--lightGrey);
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.playerTag {
+  display: flex;
+  gap: 10px;
+}
+
+.playerTag p {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.xWon {
+  color: var(--lightBlue);
+}
+
+.oWon {
+  color: var(--yellow);
+}
+
+.nextBtn {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,158 @@
+.pageContainer {
+  display: flex;
+  padding: 100px 20px 30px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xMark_p,
+.oMark_p {
+  height: 30px;
+  width: 30px;
+}
+
+.xMark_p {
+  color: var(--lightBlue);
+}
+
+.oMark_p {
+  color: var(--yellow);
+}
+
+.displayTurn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkBg);
+  padding: 10px 10px 10px 10px;
+  gap: 10px;
+  color: var(--lightGrey);
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(16, 25, 31);
+}
+
+.turnIcon {
+  font-size: 1.5rem;
+}
+
+.displayTurn p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.refresh {
+  background-color: var(--lightGrey);
+  color: var(--veryDarkBg);
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid rgb(16, 25, 31);
+}
+
+.gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.boardCell {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(16, 25, 31);
+  background-color: var(--darkBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x {
+  background-color: var(--lightBlue);
+}
+
+.o {
+  background-color: var(--yellow);
+}
+
+.x .xMark_large,
+.o .oMark_large {
+  color: var(--veryDarkBg);
+}
+
+.xMark_large {
+  font-size: 2.8rem;
+  color: var(--lightBlue);
+}
+
+.oMark_large {
+  font-size: 2.8rem;
+  color: var(--yellow);
+}
+
+.hidden {
+  display: none;
+}
+
+.showX .xMark_large {
+  display: block;
+}
+
+.showO .oMark_large {
+  display: block;
+}
+
+.winnerScreen {
+  position: absolute;
+  box-shadow: 10px 10px 1000px 100px black;
+}
+
+.streakDiv {
+  width: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.streakDiv div {
+  height: 70px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.xStreak {
+  background-color: var(--lightBlue);
+}
+
+.oStreak {
+  background-color: var(--yellow);
+}
+
+.tie {
+  background-color: var(--lightGrey);
+}
+
+.streakDiv p {
+  font-weight: 500;
+}
+
+.streakNum {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,27 @@
+.noticeBox {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: var(--darkBg);
+  justify-content: center;
+  align-items: center;
+}
+
+.noticeBox p {
+  color: var(--yellow);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: var(--veryDarkBg);
+  padding: 5px;
+  color: var(--yellow);
+}
+
+.hidden {
+  display: none;
+}
